@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    /* set the dark background colour directly because
+     arbitrary values aren’t allowed in @apply */
+    background-color: #0a0a0a;
+    @apply text-foreground;
+  }
+}
+
+/* Dark theme glassmorphism utilities */
+.glass {
+  @apply bg-white/5 backdrop-blur-sm border border-white/10;
+}
+
+.glass-card {
+  /* raw colour can't live in @apply */
+  background-color: #111111;
+  @apply border border-white/10;
+}
+
+/* Custom scrollbar for dark theme */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-white/10 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-white/20;
+}
+
+/* Rich text editor dark theme */
+.ql-editor {
+  @apply text-gray-300 min-h-[200px];
+}
+
+.ql-toolbar {
+  background-color: #111111;
+  @apply border-white/10;
+}
+
+.ql-container {
+  background-color: #111111;
+  @apply border-white/10;
+}
+
+.ql-toolbar .ql-stroke {
+  stroke: rgba(255, 255, 255, 0.7);
+}
+
+.ql-toolbar .ql-fill {
+  fill: rgba(255, 255, 255, 0.7);
+}
+
+.ql-toolbar button:hover .ql-stroke {
+  stroke: rgba(255, 255, 255, 1);
+}
+
+.ql-toolbar button:hover .ql-fill {
+  fill: rgba(255, 255, 255, 1);
+}
+
+/* Skill badge styles */
+.skill-badge {
+  background-color: #1a1a1a; /* default colour */
+  @apply border border-white/10 text-gray-300 px-4 py-2 rounded-lg flex items-center space-x-2 transition-colors duration-200;
+}
+.skill-badge:hover {
+  background-color: #222222;
+}

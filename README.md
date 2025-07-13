@@ -9,15 +9,16 @@ For dumping thoughts, tech chaos, and clean storytelling.
 ## 🔥 Preview
 
 ### 🖥️ Landing Page
-![Landing Page](https://raw.githubusercontent.com/helloAmulya/mainblog2/main/public/images/preview.png)
+![Landing Page](https://raw.githubusercontent.com/helloAmulya/docshub/main/public/images/preview.png)
 
 
 ### 🔐 Admin Dashboard
-![Admin Dashboard](https://raw.githubusercontent.com/helloAmulya/mainblog2/main/public/images/admin-dashboard.png)
+![Admin Dashboard](https://raw.githubusercontent.com/helloAmulya/docshub/main/public/images/admin-dashboard.png)
+/Users/amulyaratna/Downloads/mainblog2/public/images/preview.png
 
 
 ### 📄 Public Post Page
-![Post View](https://raw.githubusercontent.com/helloAmulya/mainblog2/main/public/images/public-post.png)
+![Post View](https://raw.githubusercontent.com/helloAmulya/docshub/main/public/images/public-post.png)
 
 
 ---

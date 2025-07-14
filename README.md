@@ -30,13 +30,9 @@ Crafted for dumping thoughts, tech chaos, and clean storytelling.
 ## ✨ Features
 
 - ✅ Admin CRUD with secure JWT routes  
-- ✅ Public blog with fast loading + caching  
-- ✅ Live preview + excerpt generation  
-- ✅ Search across title / excerpt / content  
-- ✅ Dynamic routes for each post  
-- ✅ Auto-slug generation + duplicate handling  
-- ✅ Secure MongoDB connection w/ caching  
-- ✅ Clean UI with glassmorphism and Lucide icons
+- 📝 Excerpt generation + slug-based URLs  
+- 🔍 Search by title, excerpt, or content  
+- Separate admin and public panel
 
 ---
 

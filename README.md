@@ -1,6 +1,6 @@
 # 📝 docsHub
 
-**A raw, minimal blog CMS for indie devs and digital wanderers.**  
+**A raw, minimal blog CMS for devs and digital wanderers.**  
 Built with Next.js App Router, MongoDB, and TailwindCSS v4.  
 Crafted for dumping thoughts, tech chaos, and clean storytelling.
 
@@ -51,6 +51,12 @@ Crafted for dumping thoughts, tech chaos, and clean storytelling.
 > 📡 [https://docshub.space](https://docshub.space)
 
 ---
+
+
+![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=next.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-0f172a?style=for-the-badge&logo=tailwindcss&logoColor=38bdf8)
+![MongoDB](https://img.shields.io/badge/MongoDB-001e2b?style=for-the-badge&logo=mongodb&logoColor=10aa50)
+
 
 ## 🛠️ Getting Started
 

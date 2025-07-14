@@ -36,7 +36,14 @@ class DatabaseService {
   async getAllPosts(): Promise<BlogPost[]> {
     try {
       await connectDB()
-      const posts = await Post.find({ published: true }).sort({ createdAt: -1 }).lean()
+      // const posts = await Post.find({ published: true }).sort({ createdAt: -1 }).lean()
+
+      // loading the posts faster
+      const posts = await Post.find({ published: true })
+        .select("title slug excerpt createdAt updatedAt published")
+        .sort({ createdAt: -1 })
+        .lean()
+
       return posts.map(this.transformPost)
     } catch (error) {
       console.error("Error fetching posts:", error)

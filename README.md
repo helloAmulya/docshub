@@ -21,15 +21,9 @@ Crafted for dumping thoughts, tech chaos, and clean storytelling.
 
 ## ⚙️ Stack
 
-- **Next.js (App Router)**  
-- **MongoDB + Mongoose**  
-- **Tailwind CSS v4**  
-- **JWT Auth** (`verifyAdminAuth`)  
-- **Glassmorphism UI**  
-- **Slug generation** for clean URLs  
-- **Markdown-style HTML rendering**  
-- **SEO Meta Tags** (dynamic via `generateMetadata`)  
-- **Vercel Deploy Ready**
+![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=next.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-0f172a?style=for-the-badge&logo=tailwindcss&logoColor=38bdf8)
+![MongoDB](https://img.shields.io/badge/MongoDB-001e2b?style=for-the-badge&logo=mongodb&logoColor=10aa50)
 
 ---
 
@@ -53,9 +47,6 @@ Crafted for dumping thoughts, tech chaos, and clean storytelling.
 ---
 
 
-![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=next.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-0f172a?style=for-the-badge&logo=tailwindcss&logoColor=38bdf8)
-![MongoDB](https://img.shields.io/badge/MongoDB-001e2b?style=for-the-badge&logo=mongodb&logoColor=10aa50)
 
 
 ## 🛠️ Getting Started

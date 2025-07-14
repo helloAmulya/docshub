@@ -32,18 +32,18 @@ Runs smooth, loads fast, and lets your ideas breathe.
 
 ---
 
-## ✨ Features
+##  Features
 
-- ✅ Admin CRUD with secure JWT routes  
-- 📝 Excerpt generation + slug-based URLs  
-- 🔍 Search by title, excerpt, or content  
-- Separate admin and public panel
+-  Admin CRUD with secure JWT routes  
+-  Excerpt generation + slug-based URLs  
+-  Search by title, excerpt, or content  
+-  Separate admin and public panel
 
 ---
 
 ## 🚀 Live
 
-> 📡 [https://docshub.space](https://docshub.space)
+>  [https://docshub.space](https://docshub.space)
 
 ---
 

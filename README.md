@@ -1,55 +1,81 @@
 # 📝 docsHub
 
-**A raw, minimal blogging platform**  
+**A raw, minimal blog CMS for indie devs and digital wanderers.**  
 Built with Next.js App Router, MongoDB, and TailwindCSS v4.  
-For dumping thoughts, tech chaos, and clean storytelling.
+Crafted for dumping thoughts, tech chaos, and clean storytelling.
 
 ---
 
-## 🔥 Preview
+## 🔍 Preview
 
-### 🖥️ Landing Page
+### 🌐 Landing Page  
 ![Landing Page](https://raw.githubusercontent.com/helloAmulya/docshub/main/public/images/preview.png)
 
-
-### 🔐 Admin Dashboard
+### 🔐 Admin Dashboard  
 ![Admin Dashboard](https://raw.githubusercontent.com/helloAmulya/docshub/main/public/images/admin-dashboard.png)
-/Users/amulyaratna/Downloads/mainblog2/public/images/preview.png
 
-
-### 📄 Public Post Page
-![Post View](https://raw.githubusercontent.com/helloAmulya/docshub/main/public/images/public-post.png)
-
+### 📄 Public Post Page  
+![Post Page](https://raw.githubusercontent.com/helloAmulya/docshub/main/public/images/public-post.png)
 
 ---
 
-## ⚙️ Tech Stack
+## ⚙️ Stack
 
-- Next.js App Router (13+)
-- MongoDB (Mongoose ODM)
-- Tailwind CSS v4
-- JWT Auth for Admin Access
-- Glassmorphism UI
-- Markdown-style HTML rendering
-- SEO meta tag injection
-- Vercel deployment
+- **Next.js (App Router)**  
+- **MongoDB + Mongoose**  
+- **Tailwind CSS v4**  
+- **JWT Auth** (`verifyAdminAuth`)  
+- **Glassmorphism UI**  
+- **Slug generation** for clean URLs  
+- **Markdown-style HTML rendering**  
+- **SEO Meta Tags** (dynamic via `generateMetadata`)  
+- **Vercel Deploy Ready**
 
 ---
 
-## 🧪 Features
+## ✨ Features
 
-- ✅ Create, update, delete posts (admin)
-- ✅ Rich text input with live preview
-- ✅ Clean URL slugs (auto-generated)
-- ✅ Search functionality (title, content, excerpt)
-- ✅ Dynamic routing and rendering
-- ✅ Token-based admin-only routes
+- ✅ Admin CRUD with secure JWT routes  
+- ✅ Public blog with fast loading + caching  
+- ✅ Live preview + excerpt generation  
+- ✅ Search across title / excerpt / content  
+- ✅ Dynamic routes for each post  
+- ✅ Auto-slug generation + duplicate handling  
+- ✅ Secure MongoDB connection w/ caching  
+- ✅ Clean UI with glassmorphism and Lucide icons
 
 ---
 
 ## 🚀 Live
 
-> 🌐 [https://docshub.space](https://docshub.space)
+> 📡 [https://docshub.space](https://docshub.space)
 
 ---
 
+## 🛠️ Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/helloAmulya/docshub
+cd docshub
+
+# Install dependencies
+npm install
+
+# Set up environment
+touch .env.local
+MONGODB_URI=your_mongo_uri
+JWT_SECRET=your_super_secret
+
+# Start the dev server
+npm run dev
+
+
+/app
+  /admin             → admin dashboard (auth protected)
+  /api/posts         → all post APIs (GET, POST, PUT, DELETE)
+  /posts             → public blog pages
+/components          → UI components
+/lib                 → auth, DB, utils
+/models              → mongoose models
+/public              → images & meta

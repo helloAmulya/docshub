@@ -7,9 +7,14 @@ import { database } from "@/lib/database"
 import { formatDate } from "@/lib/utils"
 import { Calendar, ArrowRight, Code, Zap, Settings, Layers } from "lucide-react"
 
+
+
 export default async function HomePage() {
   const posts = await mockDatabase.getAllPosts()
   const publishedPosts = posts.filter((post) => post.published)
+
+
+
 
   return (
     <div className="min-h-screen bg-[#0a0a0a]">
@@ -25,7 +30,7 @@ export default async function HomePage() {
                 <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
                   The story <span className="text-yellow-400">behind the code</span>
                 </h1>
-                <p className="text-gray-400 text-lg">(the human in the loop)</p>
+                {/* <p className="text-gray-400 text-lg">(the human in the loop)</p> */}
               </div>
 
               <div className="space-y-6">
@@ -55,13 +60,22 @@ export default async function HomePage() {
                 </div>
                 <div className="skill-badge">
                   <Layers className="w-5 h-5 text-yellow-400" />
-                  <span>System Driller</span>
+                  <span>Vibe Coded</span>
                 </div>
                 <div className="skill-badge">
                   <Settings className="w-5 h-5 text-yellow-400" />
-                  <span>Infra & Logic</span>
+                  <span>AI logic</span>
                 </div>
               </div>
+
+
+
+
+
+
+
+
+
             </div>
 
             {/* Right Column - Hero Image */}
@@ -161,6 +175,8 @@ export default async function HomePage() {
           </div>
         </div>
       </footer>
+
+
     </div>
   )
 }
